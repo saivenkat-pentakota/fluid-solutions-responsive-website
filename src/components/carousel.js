@@ -9,7 +9,7 @@ function carousel(){
     return(
         <Carousel>
         <Carousel.Item>
-          <img className="d-block w-100 " alt="carouselimage" src={carouselchart} />
+          <img className="d-block w-100 h-50" alt="carouselimage" src={carouselchart} />
           <Carousel.Caption>
             <h3>Label for first slide</h3>
             <p>Sample Text for Image One</p>
@@ -17,7 +17,7 @@ function carousel(){
         </Carousel.Item>
 
         <Carousel.Item>
-          <img className="d-block w-100 " src={laptopcarousel} alt="carouselimage" />
+          <img className="d-block w-100 h-50" src={laptopcarousel} alt="carouselimage" />
           <Carousel.Caption>
             <h3>Label for second slide</h3>
             <p>Sample Text for Image Two</p>
@@ -25,7 +25,7 @@ function carousel(){
         </Carousel.Item>
 
         <Carousel.Item>
-          <img className="d-block w-100 " src={carousellaptopsimage} alt="carouselimage" />
+          <img className="d-block w-100 h-50" src={carousellaptopsimage} alt="carouselimage" />
           <Carousel.Caption>
             <h3>Label for third slide</h3>
             <p>Sample Text for Image One</p>
