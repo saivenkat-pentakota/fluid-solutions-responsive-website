@@ -14,7 +14,6 @@ import ProfileSection from "./components/profileSection";
 import AppScreenShot from "./components/appScreenshot";
 import ContactUsForm from "./components/contactUsForm";
 import Footer from './components/footer';
-import PricingCards from './components/pricingCards';
 import Pricing from './components/pricing';
 
 function App() {
@@ -48,15 +47,16 @@ function App() {
       <AppScreenShot/>
 
       {/* pricing cards section */}
-      <PricingCards/>
+      <Pricing/>
 
       {/* contactusForm component */}
       <ContactUsForm/>
 
       {/* footer component */}
       <Footer/>
+      
 
-      <Pricing/>
+     
 
     </div>
   );
