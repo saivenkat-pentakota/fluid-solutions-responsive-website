@@ -15,6 +15,7 @@ import AppScreenShot from "./components/appScreenshot";
 import ContactUsForm from "./components/contactUsForm";
 import Footer from './components/footer';
 import PricingCards from './components/pricingCards';
+import Pricing from './components/pricing';
 
 function App() {
   return (
@@ -51,9 +52,11 @@ function App() {
 
       {/* contactusForm component */}
       <ContactUsForm/>
-      
+
       {/* footer component */}
       <Footer/>
+
+      <Pricing/>
 
     </div>
   );
