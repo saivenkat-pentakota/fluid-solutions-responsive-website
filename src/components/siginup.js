@@ -2,12 +2,14 @@ import React from "react";
 import Signup from "../images/signup.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faFacebook ,faGoogle } from '@fortawesome/free-brands-svg-icons';
+import Logo from '../images/logo.png';
 
 
 
 function siginup() {
   return (
-    <div class="d-flex flex-row p-5" style={{backgroundColor:"skyblue"}}>
+    <div class="d-flex flex-row justify-content-center" style={{backgroundColor:"skyblue"}}>
+        <div><img className="logo m-4 p-2" src={Logo} alt="logo" style={{width:"180px"}}/></div>
         <div class="left-portion m-3 p-5">
           <img
             src={Signup}

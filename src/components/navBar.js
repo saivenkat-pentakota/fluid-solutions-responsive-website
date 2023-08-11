@@ -3,6 +3,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Logo from '../images/logo.png';
 
 
 function navBar(){
@@ -14,7 +15,7 @@ function navBar(){
             sticky={"top"}
           >
             <Container>
-              <Navbar.Brand href="#home">Fluid-Solutions</Navbar.Brand>
+              <Navbar.Brand href="#home"><img className="logo" src={Logo} alt="logo" style={{width:"180px"}}/></Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ms-auto">
