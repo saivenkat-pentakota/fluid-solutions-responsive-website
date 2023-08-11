@@ -7,7 +7,7 @@ import {  faFacebook ,faGoogle } from '@fortawesome/free-brands-svg-icons';
 
 function siginup() {
   return (
-    <div class="container d-flex flex-row p-5" style={{backgroundColor:"skyblue"}}>
+    <div class="d-flex flex-row p-5" style={{backgroundColor:"skyblue"}}>
         <div class="left-portion m-3 p-5">
           <img
             src={Signup}
