@@ -16,6 +16,9 @@ import ContactUsForm from "./components/contactUsForm";
 import Footer from './components/footer';
 import Pricing from './components/pricing';
 
+import LoginPage from './components/login';
+import SignupPage from './components/siginup';
+
 function App() {
   return (
     <div className="App">
@@ -54,7 +57,11 @@ function App() {
 
       {/* footer component */}
       <Footer/>
-      
+
+      {/* login and signup component */}
+
+      <LoginPage/>
+      <SignupPage/>
 
      
 

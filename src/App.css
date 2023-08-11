@@ -1,11 +1,33 @@
 
-.download-now{
-  border: 1px;
-  border-radius: 10px;
-  padding: 10px;
-  background-color: rgb(66, 66, 221);
-  color: white;
+/* hr-line-css */
+.hr-lines:before{
+  content:" ";
+  display: block;
+  height: 1px;
+  width: 130px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: grey;
 }
 
-/* pricing cards css */
+.hr-lines{
+  position: relative;
+  margin-top: 30px;
+  text-align: center;
+  color: grey;
+}
+
+.hr-lines:after{
+  content:" ";
+  height: 1px;
+  width: 130px;
+  background: grey;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+
 

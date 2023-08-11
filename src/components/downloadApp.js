@@ -19,12 +19,14 @@ function downloadApp() {
           A faster ,easier to create <br /> organized lists
         </h3>
         <p className="p-2">A faster ,easier to create organized lists</p>
-        <button className="download-now ">Download Now</button>
+        <button
+          className="download-now btn bg-primary " style={{color:"white"}}
+        >
+          Download Now
+        </button>
       </div>
     </div>
   );
-
-
 }
 
 export default downloadApp;
