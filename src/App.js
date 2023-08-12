@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { useState } from "react";
+import React from "react";
 
 
 // importing components
@@ -20,8 +20,6 @@ import LoginPage from './components/login';
 import SignupPage from './components/siginup';
 
 function App() {
-
-  const [activeComponent,setActiveComponent] = useState('first');
   return (
     <div className="App">
       {/* navbar component*/}

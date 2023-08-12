@@ -1,14 +1,13 @@
 import React from "react";
 import LoginPage from "../images/login.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {  faFacebook ,faGoogle } from '@fortawesome/free-brands-svg-icons';
-
 import Logo from '../images/logo.png';
+import GoogleLogo from "../images/google-logo.png";
+import FacebookLogo from '../images/faceboo-logo.png';
 
 function Login() {
   return (
         <div class="d-flex flex-row justify-content-center" style={{backgroundColor:"skyblue"}}>
-        <div><img className="logo m-4 p-2" src={Logo} alt="logo" style={{width:"180px"}}/></div>
+        <div><img className=" logo" src={Logo} alt="logo" style={{width:"180px" ,margin:"20px"}}/></div>
         <div class="left-portion m-3 p-5">
           <img
             src={LoginPage}
@@ -52,10 +51,10 @@ function Login() {
           </form>
           <p class="hr-lines">or login with</p>
           <div class=" d-flex flex-row justify-content-center">
-            <button class="btn social bg-primary m-3 " style={{width:"150px" ,color:"white"}} >
-            <FontAwesomeIcon  icon={faGoogle}/> Google
+            <button class=" btn btn-outline-danger m-3" style={{width:"150px" ,color:"white"}} >
+            <img src={GoogleLogo} alt = "googleLogo" style={{width:"20px"}}/> Google
             </button>
-            <button className="btn bg-primary  m-3" style={{width:"150px",color:"white"}} ><FontAwesomeIcon  icon={faFacebook}/> facebook</button>
+            <button className="btn btn-outline-primary m-3" style={{width:"150px",color:"white"}} ><img src={FacebookLogo}  style={{width:"20px"}} alt = "facebookLogo" /> facebook</button>
           </div>
           <div class="sign-up m-2" style={{fontSize:"15px" ,fontWeight:"400"}}>
             <p>
